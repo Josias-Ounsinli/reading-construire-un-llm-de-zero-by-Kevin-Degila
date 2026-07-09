@@ -1,0 +1,26 @@
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+**/__pycache__/
+.venv/
+venv/
+.DS_Store
+**/.DS_Store
+# secrets / configs locales
+.env
+.env.*
+!.env.example
+.claude/
+# livres & papiers copyrightés — NE PAS publier
+*.pdf
+*.epub
+# artefacts générés par les notebooks (poids, checkpoints, figures)
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.safetensors
+*.png
+*.jpg
+*.npy
+*.npz

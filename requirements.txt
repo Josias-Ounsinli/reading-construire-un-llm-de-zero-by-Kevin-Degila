@@ -1,0 +1,15 @@
+# Dependances pour executer les notebooks en local.
+# Sur Colab, torch / numpy / matplotlib sont deja installes.
+
+# --- Coeur : utilise par la quasi-totalite des notebooks ---
+torch
+numpy
+matplotlib
+
+# --- Environnement d'execution local ---
+jupyterlab
+
+# --- Optionnel : uniquement pour certains chapitres de la partie 4 ---
+# transformers        # optionnel (ch. 17-21 : charger un modele pre-entraine)
+# datasets            # optionnel (ch. 13, 17 : jeux de donnees Hugging Face)
+# bitsandbytes        # optionnel (ch. 20 : quantification 4/8 bits, GPU requis)
